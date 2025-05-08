@@ -39,3 +39,12 @@ Flutter Starten:
    Terminal (CMD) öffnen und folgendes eingeben:  
    ```bash
    flutter doctor
+
+
+
+Git‑Branching‑Strategie
+
+Verwenden `main` als stabilen Produktions‑Branch.
+- Für neue Features legen wir jeweils einen Feature‑Branch an:
+  ```bash
+  git checkout -b feature/startseite
